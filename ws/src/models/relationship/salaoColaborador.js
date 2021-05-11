@@ -27,4 +27,4 @@ const salaoColaborador = new Schema({
 
 });
 
-module.exports = mongoose.models('SalaoColaborador', salaoColaborador);
+module.exports = mongoose.model('SalaoColaborador', salaoColaborador);

@@ -79,4 +79,4 @@ const colaborador = new Schema({
 
 });
 
-module.exports = mongoose.models('Colaborador', colaborador);
+module.exports = mongoose.model('Colaborador', colaborador);

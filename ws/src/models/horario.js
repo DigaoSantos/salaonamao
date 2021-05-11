@@ -42,4 +42,4 @@ const horario = new Schema({
 
 });
 
-module.exports = mongoose.models('Horario', horario);
+module.exports = mongoose.model('Horario', horario);

@@ -46,4 +46,4 @@ const servico = new Schema({
 });
 
 
-module.exports = mongoose.models('Servico', servico);
+module.exports = mongoose.model('Servico', servico);
